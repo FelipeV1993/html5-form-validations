@@ -1,110 +1,187 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-</head>
-
-<body>
-
-    <div class="card mx-2">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <form>
+      <div class="card mx-2">
         <div class="card-header">
-            <h2>
-                Payment for example
-            </h2>
+          <h2>Payment for example</h2>
         </div>
         <div class="card-body">
-
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="alert alert-danger" role="alert">
-                        A simple danger alert—check it out!
-                    </div>
-                </div>
-                <div class="col-sm-5">
-                    <label for="exampleInputEmail1" class="form-label">Card #</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="xxxxxxxxxxxxxxx">
-                </div>
-                <div class="col-sm-3">
-                    <label for="exampleInputEmail1" class="form-label">CVC #</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="0000000">
-                </div>
-                <div class="col-sm-4">
-                    <label for="exampleInputEmail1" class="form-label">Amount</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="amount">
-                </div>
-                <div class="col-sm-6">
-                    <label for="exampleInputEmail1" class="form-label">Firts Name</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                </div>
-                <div class="col-sm-6">
-                    <label for="exampleInputEmail1" class="form-label">Last Name</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                </div>
-                <div class="col-sm-6">
-                    <label for="exampleInputEmail1" class="form-label">city</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                </div>
-                <div class="col-sm-3">
-                    <label for="exampleInputEmail1" class="form-label">state</label>
-                    <select class="form-select" aria-label="Default select example" id="exampleInputEmail1">
-                        <option selected>Pick a state</option>
-                        <option value="1">texas</option>
-                        <option value="2">alaska</option>
-                        <option value="3">utah</option>
-                    </select>
-                </div>
-                <div class="col-sm-3">
-                    <label for="exampleInputEmail1" class="form-label">Postal code</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                </div>
-                <div class="col-sm-6">
-                    <label for="inlineRadio1" class="form-label">We accept:</label>
-                    <div class="d-flex w-50 bg-secondary">
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                            <label class="form-check-label" for="inlineRadio1">
-                                <i class="fa-brands fa-cc-visa"></i>
-                            </label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                            <label class="form-check-label" for="inlineRadio2">
-                                <i class="fa-brands fa-cc-mastercard"></i>
-                            </label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                            <label class="form-check-label" for="inlineRadio2">
-                                <i class="fa-brands fa-cc-diners-club"></i>
-                            </label>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    <small class="text-secondary">add notes here</small>
-                </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <div id="alert" >
+                
+              </div>
             </div>
-        </div>
-
-
-
-            <div class="card-footer text-muted text-end" >
-                <button type="button" class="btn btn-secondary">cancel</button>
-                <button type="button" class="btn btn-primary">send</button>
+            <div class="col-sm-5">
+              <label for="card" class="form-label">Card #</label>
+              <input
+                type="text"
+                class="form-control"
+                id="card"
+                aria-describedby="emailHelp"
+                placeholder="xxxxxxxxxxxxxxx"
+              />
             </div>
+            <div class="col-sm-3">
+              <label for="cvc" class="form-label">CVC #</label>
+              <input
+                type="text"
+                class="form-control"
+                id="cvc"
+                aria-describedby="emailHelp"
+                placeholder="0000000"
+              />
+            </div>
+            <div class="col-sm-4">
+              <label for="amount" class="form-label">Amount</label>
+              <input
+                type="text"
+                class="form-control"
+                id="amount"
+                aria-describedby="emailHelp"
+                placeholder="amount"
+              />
+            </div>
+            <div class="col-sm-6">
+              <label for="name" class="form-label"
+                >Firts Name</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                aria-describedby="emailHelp"
+                placeholder="name"
+              />
+            </div>
+            <div class="col-sm-6">
+              <label for="lastName" class="form-label"
+                >Last Name</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="lastName"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="col-sm-6">
+              <label for="city" class="form-label">city</label>
+              <input
+                type="text"
+                class="form-control"
+                id="city"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="col-sm-3">
+              <label for="state" class="form-label">state</label>
+              <select
+                class="form-select"
+                aria-label="Default select example"
+                id="state"
+              >
+                <option selected>Pick a state</option>
+                <option value="1">texas</option>
+                <option value="2">alaska</option>
+                <option value="3">utah</option>
+              </select>
+            </div>
+            <div class="col-sm-3">
+              <label for="postal" class="form-label"
+                >Postal code</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="postal"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="col-sm-6">
+              <label for="inlineRadio1" class="form-label">We accept:</label>
+              <div class="d-flex w-50 bg-secondary">
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="inlineRadioOptions"
+                    id="inlineRadio1"
+                    value="option1"
+                  />
+                  <label class="form-check-label" for="inlineRadio1">
+                    <i class="fa-brands fa-cc-visa"></i>
+                  </label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="inlineRadioOptions"
+                    id="inlineRadio2"
+                    value="option2"
+                  />
+                  <label class="form-check-label" for="inlineRadio2">
+                    <i class="fa-brands fa-cc-mastercard"></i>
+                  </label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="inlineRadioOptions"
+                    id="inlineRadio2"
+                    value="option2"
+                  />
+                  <label class="form-check-label" for="inlineRadio2">
+                    <i class="fa-brands fa-cc-diners-club"></i>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <label for="textarea" class="form-label"
+                >Example textarea</label
+              >
+              <textarea
+                class="form-control"
+                id="textarea"
+                rows="3"
+              ></textarea>
+              <small class="text-secondary">add notes here</small>
+            </div>
+          </div>
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-            crossorigin="anonymous"></script>
-</body>
-
+        <div class="card-footer text-muted text-end">
+          <button type="button" class="btn btn-secondary">cancel</button>
+          <button type="submit" class="btn btn-primary">send</button>
+        </div>
+      </div>
+    </form>
+    <script src="app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
