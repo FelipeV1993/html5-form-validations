@@ -40,9 +40,9 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
 
     let { card, cvc, amount, name, lastName, city, state, postal, textarea } = form;
+   
+   
     let variables = {};
-
-
     variables.card = card.value;
     variables.cvc = cvc.value;
     variables.amount = amount.value;
